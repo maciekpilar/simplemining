@@ -1,0 +1,21 @@
+.question__title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 400;
+  color: #000;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  transition: all ease-in-out 150ms;
+
+  &:hover {
+    color: #0b60b0;
+    transition: all ease-in-out 150ms;
+  }
+}
+
+.question__content {
+  margin: 12px;
+  width: 100%;
+}
